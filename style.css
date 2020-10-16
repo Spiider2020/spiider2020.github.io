@@ -31,3 +31,14 @@ html, body {
 .form-group {
 	min-width: 250px;
 }
+
+.navbar-spacer {
+	margin-left: 20px;
+}
+
+.navbar-user {
+
+	display :flex;
+	justify-content: flex-start;
+	margin: 0px 20px 0px 0px;
+}
