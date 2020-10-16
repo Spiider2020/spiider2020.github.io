@@ -1,6 +1,13 @@
 html, body {
 	height: 100%;
+	background: url(images/back3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -19,4 +26,8 @@ html, body {
 
 .card:hover {
 	transform: scale(1.025);
+}
+
+.form-group {
+	min-width: 250px;
 }
